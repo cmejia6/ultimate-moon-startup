@@ -1,0 +1,28 @@
+body {
+	background-image: url(https://images.pexels.com/photos/414968/pexels-photo-414968.jpeg?cs=srgb&dl=black-buttons-compact-414968.jpg&fm=jpg);
+	background-size: cover;
+	
+	background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+
+	font-family: 'Mukta', serif;
+	color: white;
+
+}
+
+.linebreak{
+    height: 1px;
+    width: 300px;
+    border: 0;
+    border-top: 4px solid purple;
+    margin: 0 auto;
+    padding: 0 0 10 0;
+}
+
+.containers {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
